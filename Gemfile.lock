@@ -75,6 +75,7 @@ GEM
     sinatra-activerecord (2.0.23)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
+    smarter_csv (1.4.2)
     sqlite3 (1.4.2)
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
@@ -86,6 +87,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-19
 
 DEPENDENCIES
@@ -102,8 +104,9 @@ DEPENDENCIES
   rspec-json_expectations (~> 2.2)
   sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
+  smarter_csv (~> 1.1)
   sqlite3 (~> 1.4)
   thin (~> 1.8)
 
 BUNDLED WITH
-   2.2.23
+   2.2.32
