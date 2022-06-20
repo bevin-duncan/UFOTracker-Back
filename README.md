@@ -1,5 +1,7 @@
 Backend for a heatmap of UFO Sightings in the State of Washington that leverages Rails functionality to parse CSV data sourced from the National UFO reporting Center's data set. 
 
+Install gems: bundle install 
+Start server: bundle exec rake server
 
 
 # Phase 3 Project Guidelines
